@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.w100
+{
+    width: 100%;
+}
+.py-2
+{
+    padding: 15px 0;
+}
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+.logo 
+{
+    flex-basis: 30%;
+}
+.topads
+{
+    flex-basis:70%;
+}
+nav
+{
+    background: #32549A;
+    line-height: 45px;
+    margin: 10px 0;
+}
+nav ul li 
+{
+    display: inline;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+}
+article h1 
+{
+    font-size: 55px;
+    color: red;
+}
+article 
+{
+    text-align: center;
+    border-bottom: 2px solid blue;
+    padding: 20px 0;
+}
